@@ -1,6 +1,6 @@
-hadoop fs -mkdir /user/ubuntu/data-test-5
-hadoop fs -mkdir /user/ubuntu/data-test-5/data
-hadoop fs -cp /user/ubuntu/data-test/data/yellow_tripdata_2020-04.csv /user/ubuntu/data-test-5/data/
+hadoop fs -mkdir /user/ubuntu/data-test-6
+hadoop fs -mkdir /user/ubuntu/data-test-6/data
+hadoop fs -cp /user/ubuntu/data-test/data/yellow_tripdata_2020-04.csv /user/ubuntu/data-test-6/data/
 
 scp -i E:\YandexDisk\GB\sshKeys\private.key C:\Users\ragim\Documents\Projects\KC\de-kc-hiveql\* ubuntu@rc1b-dataproc-m-ytxncbscpq5omqap.mdb.yandexcloud.net:/home/ubuntu/homework2
 chmod +x ./run.sh
