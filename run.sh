@@ -1,0 +1,9 @@
+hive -f 01_create_db.sql
+hive -f 02_create_references.sql
+hive -f 03_create_tables.sql
+hive -f 04_create_part.sql
+hive -f 05_create_showcase_view.sql
+hive -f 06_create_showcase_table.sql
+hive -f 07_fill_refernces.sql
+hive -f 08_fill_part.sql
+hive -f 09_fill_showcase.sql
